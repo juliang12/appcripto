@@ -10,7 +10,6 @@ const CryptoPriceDisplay = () => {
     () => Object.values(result).length > 0,
     [result]
   );
-  console.log('nuevo')
   
   return (
     <div className={s.resultWrapper}>
