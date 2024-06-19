@@ -2,7 +2,7 @@ import s from "./CyptoPriceDisplay.module.css";
 import { useCryptoStore } from "../../store/store";
 import { useMemo } from "react";
 import { Loader } from "../Loader/Loader";
-console.log('oasasas')
+
 const CryptoPriceDisplay = () => {
   const result = useCryptoStore((state) => state.result);
   const loading = useCryptoStore((state) => state.loading);
