@@ -10,7 +10,7 @@ const CryptoPriceDisplay = () => {
     () => Object.values(result).length > 0,
     [result]
   );
-  
+  console.log('hola mundo')
   return (
     <div className={s.resultWrapper}>
       {loading ? <Loader/> : hasResult && (
